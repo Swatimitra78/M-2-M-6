@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+         <ul>
+             <li><a href="home.html">Home</a></li>
+             <li><a href="form.html">Form</a></li>
+             <li><a href="table.html">Table</a></li>
+             <li><a href="semantic.html">Semantic</a></li>
+             <li><a href="">About Us</a></li>
+         </ul>
+        </nav>
+         
+     </header>
+    <h1>pitha Expo</h1>
+    <form action="">
+        <p>name:<input type="text" name="name" placeholder="enter your name" id=""></p>
+        <p>email:<input type="email" name="email" placeholder="enter your email" id=""></p>
+
+        <fieldset>
+            <legend>select your pitha</legend>
+            <!--sb guln er same nam tai ekta select korle baki ta select hbe na-->
+            <p>
+                <label for="citoi">
+                    <input type="radio" name="pitha" id="">citoi
+                </label>
+            </p>
+            <p>
+                <label for="vapa">
+                    <input type="radio" name="pitha" id="">vapa
+                </label>
+            </p>
+            <p>
+                <label for="telpitha">
+                    <input type="radio" name="pitha" id="">telpitha
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>select your vorta</legend>
+
+           <!-- p*3>label>input:checkbox-->
+           <p><label for="sorisa"><input type="checkbox" name="vorta" id="sorisa">sorisa</label></p>
+           <p><label for="shutki"><input type="checkbox" name="vorta" id="shutki">shutki</label></p>
+           <p><label for="begun"><input type="checkbox" name="vorta" id="begun">begun</label></p>
+
+        </fieldset>
+        <p>special instraction
+            <br>
+        <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+</p>
+<button type="submit">submit</button>
+<button type="reset">reset</button>
+    </form>
+
+</body>
+
+</html>
